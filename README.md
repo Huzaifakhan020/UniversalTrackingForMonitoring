@@ -24,6 +24,7 @@ You do not need to compile the code yourself to use ThermalGuard.
 Known Quirks & Troubleshooting
 
 Blank CPU Temperatures? Make sure you are running the app as an Administrator. Motherboard-routed CPU sensors (SuperIO chips) hide their data from standard user accounts.
+
 Anti-Cheat Interference: Aggressive kernel-level anti-cheat software (like Riot Vanguard) occasionally blocks the open-source hardware drivers `LibreHardwareMonitor` uses to read temperatures. If temps are blank, try exiting Vanguard from your system tray and relaunching ThermalGuard.
 
 Tech Stack
