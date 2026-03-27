@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="../UniversalThermalGuardSetup/UniversalThermalGuardSetup.vdproj" Type="Installer">
+    <Build />
+  </Project>
+  <Project Path="UniversalTrackingForMonitoring.csproj" Id="66498317-8484-46bc-a6c7-1b9ed90929b4">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
